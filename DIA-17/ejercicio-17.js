@@ -26,7 +26,6 @@ const productos = [
   { nombre: "TV", precio: 1500, categoria: "tecnologia", stock: 2 }
 ];
 
-
 const filtrarProductos = function(productos){
     return productos.filter(producto => producto.categoria == 'tecnologia' 
         && producto.precio < 1000
@@ -37,7 +36,8 @@ const transformarProductos = function(prods){
     return prods.map((producto) => {
         return {
             nombre : producto.nombre.toUpperCase(),
-            precio : producto.precio / 1000}
+            precio : producto.precio / 1000,
+            disponible : true }
         
     })
 }
