@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="ejercicio-18.js" defer></script>
+    <title>Ej 18</title>
+</head>
+<body>
+    <div class="buscar">
+        <label for="filtro">Categorias</label>
+        <select name="filtrar" id="filtro" onchange="filtrarProductos(this.value)">
+            <option value="" selected disabled></option>
+            <option value="tecnologia">Tecnologia</option>
+            <option value="ropa">Ropa</option>
+            <option value="accesorios">Accesorios</option>
+        </select>
+    </div>
+    <div class="container" >
+        <div id="productos" class="container-prods">
+
+        </div>
+    </div>
+    
+</body>
+</html>
