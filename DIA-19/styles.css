@@ -8,10 +8,9 @@ html, body{
 
 .container-prods{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     background-color: rgb(238, 238, 238);
     gap: 20px;
-    height: 100dvh;
     padding: 80px;
     padding-top: 50px;
     width: 80dvw;
