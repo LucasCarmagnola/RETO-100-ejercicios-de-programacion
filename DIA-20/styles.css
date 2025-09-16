@@ -56,7 +56,6 @@
 .borde{
     display: grid;
     place-content: center;
-    z-index: 0;
     height: 50px;
     width: 50px;
     border-radius: 50%;
