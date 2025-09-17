@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="ejercicio-21.js" defer></script>
+    <title>DIA 20</title>
+</head>
+<body>
+
+    <div class="container-calle">
+        <div class="calle">
+            <div class="senda-peatonal1"></div>
+            <div class="senda-peatonal2"></div>
+            <div class="senda-peatonal3"></div>
+            <div class="senda-peatonal4"></div>
+        </div>
+
+        <div class="container-semaforos">
+            <div class="container-semaforo semaforo1">
+                <div class="semaforo">
+                    <div class="borde">
+                        <div class="rojo" id="rojo"></div>
+                    </div>
+                    <div class="borde">
+                        <div class="amarillo" id="amarillo"></div>
+                    </div>
+                    <div class="borde">
+                        <div class="verde" id="verde"></div>
+                    </div>
+                </div>
+                <div class="poste"></div>
+            </div>
+    
+            <div class="container-semaforo semaforo2" >
+                <div class="semaforo">
+                    <div class="borde">
+                        <div class="rojo" id="rojo2"></div>
+                    </div>
+                    <div class="borde">
+                        <div class="amarillo" id="amarillo2"></div>
+                    </div>
+                    <div class="borde">
+                        <div class="verde" id="verde2"></div>
+                    </div>
+                </div>
+                <div class="poste"></div>
+            </div>
+        </div>
+
+        <div class="botonera">
+            <button class="btn-semaforo" onclick="priorizarSemaforo2()"></button>
+        </div>
+
+    </div>
+    
+</body>
+</html>

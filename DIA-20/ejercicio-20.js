@@ -57,9 +57,9 @@ function semaforo(){
             rojo.style.backgroundColor = 'transparent'
             verde.style.backgroundColor = '#4CAF50'
 
-            setTimeout(semaforo, 10000)
-        }, 3000)
-    }, 10000)
+            setTimeout(semaforo, 5000)
+        }, 1500)
+    }, 5000)
 }
 
 semaforo()
