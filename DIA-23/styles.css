@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input-tarea{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 300px;
+}
+
+.btn-tarea{
+    background-color: rgb(224, 224, 224);
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+    box-shadow: 4px 4px 8px -2px rgba(0, 0, 0, 0.646);
+}
+.btn-tarea:active{
+    background-color: rgb(114, 117, 120);
+}
+
+.container-tareas{
+    width: 600px;
+    height: 550px;
+    max-height: 550px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-y: auto;
+}
+
+.container-options{
+    display: flex;
+    gap: 10px;
+}
+
+.tarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 17px -6px rgba(0,0,0,0.75);
+}
+
+.texto-tarea{
+    max-width: 70%;
+    text-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.realizada{
+    
+    background-color: rgba(127, 223, 107, 0.711);
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    gap: 20px;
+}
+
+.eliminar {
+  fill: gray;
+  cursor: pointer;
+}
+
+.eliminar:hover {
+  fill: rgb(0, 0, 0);
+}
+
+.favorito{
+    height: 30px;
+    width: 30px;
+}
+
+.favorito:hover{
+    stroke: rgb(72, 151, 48);
+}
+
+.favorito-realizada{
+    height: 30px;
+    width: 30px;
+}
+
+.favorito-realizada:hover{
+    stroke: rgb(215, 58, 38);
+}
+
+.container-opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-barra{
+    height: 5px;
+    width: 80px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.barra{
+    margin: 0;
+    padding: 0;
+    height: 5px;
+    max-width: 80px;
+    width: 0;
+    border-radius: 2px;
+    background-color: rgb(57, 57, 57);
+    transition: width 0.15s ease;
+}
+
+.btn-progreso{
+    display: grid;
+    place-content: center;
+    font-weight: bold;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+}

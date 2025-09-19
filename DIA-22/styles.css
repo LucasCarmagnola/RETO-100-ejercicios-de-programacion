@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.componente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.container-fotos{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    overflow-x: hidden;
+    gap: 60px;
+}
+
+.container-fotos img{
+    width: 200px;
+    height: 400px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.flecha:first-child{
+    transform: rotate(180deg);
+}
+
+.flecha{
+    background-color: rgba(147, 154, 161, 0.16);
+    margin: 20px;
+    padding: 10px;
+}
+
+.flecha:hover{
+    background-color: rgba(147, 154, 161, 0.364);
+}
+
+.flecha:active{
+    background-color: rgba(147, 154, 161, 0.574);
+}
